@@ -4,8 +4,8 @@ import MyButton from "./Ui/button/MyButton";
 const PostItem = function (props) {
     return (
         <div className="post">
-            <div className='psot__content'>
-                <strong>{props.number}. {props.post.title}</strong>
+            <div className='post__content'>
+                <strong>{props.post.id}. {props.post.title}</strong>
                 <div>
                     {props.post.body}
                 </div>
